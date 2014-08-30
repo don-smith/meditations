@@ -2,12 +2,12 @@
     'use strict';
 
     var controllerId = 'shell';
-    angular.module('app').controller(controllerId, ['$location', '$rootScope', '$scope', 'interop', shell]);
+    angular.module('app').controller(controllerId, ['$scope', 'navigator', shell]);
 
-    function shell($location, $rootScope, $scope, interop) {
+    function shell($scope, navigator) {
         var vm = this;
 
-        interop.registerNavigation();
+        navigator.register();
         activate();
 
         function activate() {

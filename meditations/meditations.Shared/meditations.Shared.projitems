@@ -6,12 +6,18 @@
     <SharedGUID>3ad6ac69-cbda-4dc1-8739-5df6e39c1d42</SharedGUID>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)app\app.js" />
+    <Content Include="$(MSBuildThisFileDirectory)app\interop.js" />
     <Content Include="$(MSBuildThisFileDirectory)app\config.js" />
     <Content Include="$(MSBuildThisFileDirectory)app\home\home.html" />
     <Content Include="$(MSBuildThisFileDirectory)app\home\home.js" />
     <Content Include="$(MSBuildThisFileDirectory)app\layout\shell.html" />
     <Content Include="$(MSBuildThisFileDirectory)app\layout\shell.js" />
+    <Content Include="$(MSBuildThisFileDirectory)app\new-session\new-session.js" />
+    <Content Include="$(MSBuildThisFileDirectory)app\new-session\new-session.html" />
     <Content Include="$(MSBuildThisFileDirectory)app\routes.js" />
+    <Content Include="$(MSBuildThisFileDirectory)css\shared.css" />
+    <Content Include="$(MSBuildThisFileDirectory)css\shared.less" />
     <Content Include="$(MSBuildThisFileDirectory)default.js" />
     <Content Include="$(MSBuildThisFileDirectory)vendor\angularjs\angular-animate.js" />
     <Content Include="$(MSBuildThisFileDirectory)vendor\angularjs\angular-animate.min.js" />

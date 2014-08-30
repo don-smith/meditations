@@ -22,11 +22,22 @@
             {
                 url: '/',
                 config: {
-                    templateUrl: 'app/home/home.html',
+                    templateUrl: '/app/home/home.html',
                     title: 'home',
                     settings: {
                         nav: 1,
                         content: 'Home'
+                    }
+                }
+            },
+            {
+                url: '/new-session',
+                config: {
+                    templateUrl: '/app/new-session/new-session.html',
+                    title: 'new session',
+                    settings: {
+                        nav: 1,
+                        content: 'New Session'
                     }
                 }
             }

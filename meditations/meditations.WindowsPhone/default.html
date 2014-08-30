@@ -1,24 +1,31 @@
 ﻿<!DOCTYPE html>
-<html data-ng-app="app">
+<html data-ng-app="app" data-ng-csp>
 <head>
     <meta charset="utf-8" />
     <title>meditations.WindowsPhone</title>
 
     <!-- WinJS references -->
-    <!-- At runtime, ui-themed.css resolves to ui-themed.light.css or ui-themed.dark.css 
+    <!-- At runtime, ui-themed.css resolves to ui-themed.light.css or ui-themed.dark.css
     based on the user’s theme setting. This is part of the MRT resource loading functionality. -->
     <link href="/css/ui-themed.css" rel="stylesheet" />
     <script src="//Microsoft.Phone.WinJS.2.1/js/base.js"></script>
     <script src="//Microsoft.Phone.WinJS.2.1/js/ui.js"></script>
-    
+
     <!-- External references -->
     <script src="/vendor/angularjs/angular.js"></script>
+    <script src="/vendor/angularjs/angular-route.js"></script>
     <script src="/vendor/azure-mobile-services/MobileServices.js"></script>
     <script src="/vendor/azure-mobile-services/azuremobileangularservices.js"></script>
 
     <!-- meditations.Phone references -->
+    <link href="/css/shared.css" rel="stylesheet" />
+    <script src="/app/app.js"></script>
+    <script src="/app/config.js"></script>
+    <script src="/app/routes.js"></script>
+    <script src="/app/interop.js"></script>
     <script src="/app/layout/shell.js"></script>
     <script src="/app/home/home.js"></script>
+    <script src="/app/new-session/new-session.js"></script>
     <script src="/default.js"></script>
 
 </head>
@@ -26,6 +33,5 @@
     <div>
         <div data-ng-include="'/app/layout/shell.html'"></div>
     </div>
-    <p>Content goes here</p>
 </body>
 </html>

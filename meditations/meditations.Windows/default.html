@@ -1,8 +1,12 @@
 ﻿<!DOCTYPE html>
-<html data-ng-app="app" data-ng-csp>
+<html data-ng-app="app">
 <head>
     <meta charset="utf-8" />
     <title>meditations.Windows</title>
+
+    <!-- Mitigate dynamic content security issues with using external libraries -->
+    <!-- See https://github.com/MSOpenTech/winstore-jscompat for more information -->
+    <script src="/vendor/winstore-jscompat.js"></script>
 
     <!-- WinJS references -->
     <link href="//Microsoft.WinJS.2.0/css/ui-light.css" rel="stylesheet" />
@@ -17,6 +21,8 @@
 
     <!-- meditations.Phone references -->
     <link href="/css/shared.css" rel="stylesheet" />
+    <link href="/css/colors/colors-themed.css" rel="stylesheet" />
+    <link href="/app/home/home.css" rel="stylesheet" />
     <script src="/app/navigator.js"></script>
     <script src="/app/app.js"></script>
     <script src="/app/config.js"></script>

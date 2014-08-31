@@ -6,8 +6,9 @@
 
     function home($location) {
         var vm = this;
-        vm.goToNewSession = function() {
-            $location.path('/new-session');
+
+        vm.goTo = function(path) {
+            $location.path(path);
         };
 
         activate();

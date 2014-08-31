@@ -2,10 +2,9 @@
     'use strict';
 
     var controllerId = 'shell';
-    angular.module('app').controller(controllerId, ['$scope', 'navigator', shell]);
+    angular.module('app').controller(controllerId, ['navigator', shell]);
 
-    function shell($scope, navigator) {
-        var vm = this;
+    function shell(navigator) {
 
         navigator.register();
         activate();

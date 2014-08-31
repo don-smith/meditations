@@ -1,0 +1,18 @@
+﻿@import url(/css/colors-themed.theme-light.css);
+
+/*
+    At runtime, on Windows Phone, colors-themed.css resolves to 
+    colors-themed.theme-light.css or colors-themed.theme-dark.css 
+    based on the user’s theme setting. This is part of the MRT 
+    resource loading functionality.
+
+    For more information, see:
+    http://msdn.microsoft.com/en-us/library/windows/apps/hh965372.aspx
+
+    The import above is the default for Windows Store apps.
+
+    All color-specific styles should be placed in the appropriate
+    theme file (*.theme-light.less or *.theme-dark.less). Don't
+    edit the theme CSS files since they are rebuilt from the 
+    LESS files.
+*/

@@ -8,14 +8,21 @@
   <ItemGroup>
     <Content Include="$(MSBuildThisFileDirectory)app\app.js" />
     <Content Include="$(MSBuildThisFileDirectory)app\config.js" />
+    <Content Include="$(MSBuildThisFileDirectory)app\home\home.css" />
     <Content Include="$(MSBuildThisFileDirectory)app\home\home.html" />
     <Content Include="$(MSBuildThisFileDirectory)app\home\home.js" />
+    <Content Include="$(MSBuildThisFileDirectory)app\home\home.less" />
     <Content Include="$(MSBuildThisFileDirectory)app\layout\shell.html" />
     <Content Include="$(MSBuildThisFileDirectory)app\layout\shell.js" />
     <Content Include="$(MSBuildThisFileDirectory)app\navigator.js" />
     <Content Include="$(MSBuildThisFileDirectory)app\new-session\new-session.js" />
     <Content Include="$(MSBuildThisFileDirectory)app\new-session\new-session.html" />
     <Content Include="$(MSBuildThisFileDirectory)app\routes.js" />
+    <Content Include="$(MSBuildThisFileDirectory)css\colors\colors-themed.css" />
+    <Content Include="$(MSBuildThisFileDirectory)css\colors\colors-themed.theme-dark.css" />
+    <Content Include="$(MSBuildThisFileDirectory)css\colors\colors-themed.theme-dark.less" />
+    <Content Include="$(MSBuildThisFileDirectory)css\colors\colors-themed.theme-light.css" />
+    <Content Include="$(MSBuildThisFileDirectory)css\colors\colors-themed.theme-light.less" />
     <Content Include="$(MSBuildThisFileDirectory)css\shared.css" />
     <Content Include="$(MSBuildThisFileDirectory)css\shared.less" />
     <Content Include="$(MSBuildThisFileDirectory)default.js" />
@@ -332,5 +339,7 @@
     <Content Include="$(MSBuildThisFileDirectory)vendor\azure-mobile-services\MobileServices.js" />
     <Content Include="$(MSBuildThisFileDirectory)vendor\azure-mobile-services\MobileServices.min.js" />
     <Content Include="$(MSBuildThisFileDirectory)vendor\azure-mobile-services\MobileServices.pri" />
+    <Content Include="$(MSBuildThisFileDirectory)vendor\moment.js" />
+    <Content Include="$(MSBuildThisFileDirectory)vendor\winstore-jscompat.js" />
   </ItemGroup>
 </Project>

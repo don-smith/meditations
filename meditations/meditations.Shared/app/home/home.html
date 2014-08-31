@@ -1,6 +1,28 @@
 ﻿<div data-ng-controller="home as vm">
-    <h2>Home</h2>
-    <p>
-        Create a <a data-ng-click="vm.goToNewSession()">new session</a>.
-    </p>
+    <div class="tiles">
+        <div class="tile" data-ng-click="vm.goTo('/repeat-last')">
+            <div>
+                <div class="icon"></div>
+                <div class="title">Repeat last</div>
+            </div>
+        </div>
+        <div class="tile" data-ng-click="vm.goTo('/new-session')">
+            <div>
+                <div class="icon"></div>
+                <div class="title">New session</div>
+            </div>
+        </div>
+        <div class="tile" data-ng-click="vm.goTo('/presets')">
+            <div>
+                <div class="icon"></div>
+                <div class="title">Presets</div>
+            </div>
+        </div>
+        <div class="tile" data-ng-click="vm.goTo('/history')">
+            <div>
+                <div class="icon"></div>
+                <div class="title">History</div>
+            </div>
+        </div>
+    </div>
 </div>

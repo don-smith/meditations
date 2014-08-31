@@ -2,18 +2,10 @@
     'use strict';
 
     var controllerId = 'newSession';
-    angular.module('app').controller(controllerId, ['$location', '$scope', 'navigator', newSession]);
+    angular.module('app').controller(controllerId, [newSession]);
 
-    function newSession($location, $scope, navigator) {
+    function newSession() {
         var vm = this;
-
-        vm.goHome = function() {
-            $location.path('/');
-        };
-
-        vm.goBack = function() {
-            navigator.goBack($scope);
-        }
 
         activate();
 

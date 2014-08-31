@@ -25,8 +25,18 @@
                     templateUrl: '/app/home/home.html',
                     title: 'home',
                     settings: {
-                        nav: 1,
                         content: 'Home'
+                    }
+                }
+            },
+            {
+                url: '/repeat-last',
+                config: {
+                    templateUrl: '/app/home/home.html',
+                    //templateUrl: '/app/repeat-last/repeat-last.html',
+                    title: 'repeat last',
+                    settings: {
+                        content: 'Repeat Last'
                     }
                 }
             },
@@ -36,8 +46,29 @@
                     templateUrl: '/app/new-session/new-session.html',
                     title: 'new session',
                     settings: {
-                        nav: 1,
                         content: 'New Session'
+                    }
+                }
+            },
+            {
+                url: '/presets',
+                config: {
+                    templateUrl: '/app/home/home.html',
+                    //templateUrl: '/app/presets/presets.html',
+                    title: 'presets',
+                    settings: {
+                        content: 'Presets'
+                    }
+                }
+            },
+            {
+                url: '/history',
+                config: {
+                    templateUrl: '/app/home/home.html',
+                    //templateUrl: '/app/history/history.html',
+                    title: 'history',
+                    settings: {
+                        content: 'History'
                     }
                 }
             }

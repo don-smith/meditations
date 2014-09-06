@@ -3,75 +3,34 @@
 
     var app = angular.module('app');
 
-    // Collect the routes
-    app.constant('routes', getRoutes());
-
     // Configure the routes and route resolvers
-    app.config(['$routeProvider', 'routes', routeConfigurator]);
-    function routeConfigurator($routeProvider, routes) {
+    app.config(['$stateProvider', routeConfigurator]);
+    function routeConfigurator($stateProvider) {
 
-        routes.forEach(function (r) {
-            $routeProvider.when(r.url, r.config);
-        });
-        $routeProvider.otherwise({ redirectTo: '/' });
-    }
-
-    // Define the routes 
-    function getRoutes() {
-        return [
-            {
+        $stateProvider
+            .state('home', {
                 url: '/',
-                config: {
-                    templateUrl: '/app/home/home.html',
-                    title: 'home',
-                    settings: {
-                        content: 'Home'
-                    }
-                }
-            },
-            {
+                templateUrl: '/app/home/home.html'
+            })
+            .state('repeat-last', {
                 url: '/repeat-last',
-                config: {
-                    templateUrl: '/app/home/home.html',
-                    //templateUrl: '/app/repeat-last/repeat-last.html',
-                    title: 'repeat last',
-                    settings: {
-                        content: 'Repeat Last'
-                    }
-                }
-            },
-            {
+                templateUrl: '/app/home/home.html'
+                //templateUrl: '/app/repeat-last/repeat-last.html'
+            })
+            .state('new-session', {
                 url: '/new-session',
-                config: {
-                    templateUrl: '/app/new-session/new-session.html',
-                    title: 'new session',
-                    settings: {
-                        content: 'New Session'
-                    }
-                }
-            },
-            {
+                templateUrl: '/app/new-session/new-session.html'
+            })
+            .state('presets', {
                 url: '/presets',
-                config: {
-                    templateUrl: '/app/home/home.html',
-                    //templateUrl: '/app/presets/presets.html',
-                    title: 'presets',
-                    settings: {
-                        content: 'Presets'
-                    }
-                }
-            },
-            {
+                templateUrl: '/app/home/home.html'
+                //templateUrl: '/app/presets/presets.html'
+            })
+            .state('history', {
                 url: '/history',
-                config: {
-                    templateUrl: '/app/home/home.html',
-                    //templateUrl: '/app/history/history.html',
-                    title: 'history',
-                    settings: {
-                        content: 'History'
-                    }
-                }
-            }
-        ];
+                templateUrl: '/app/home/home.html'
+                //templateUrl: '/app/history/history.html'
+            });
     }
+
 })();

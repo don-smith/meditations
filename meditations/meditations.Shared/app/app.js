@@ -1,9 +1,11 @@
 ﻿(function () {
     'use strict';
 
-    var app = angular.module('app', ['ngRoute', 'navigator']);
+    var app = angular.module('app', ['ngAnimate', 'ui.router', 'navigator']);
 
-    app.run(['$route', 'navigator', function () {
-        // Include $route to kick start the router.
+    app.run(['$state', 'navigator', function($state, navigator) {
+        navigator.register();
+        $state.go('home');
     }]);
+
 })();

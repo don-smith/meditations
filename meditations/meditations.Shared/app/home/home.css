@@ -2,7 +2,7 @@
   align-content: space-between;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: flex-start;
 }
 .tiles .tile {
   background-color: transparent;

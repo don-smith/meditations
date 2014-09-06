@@ -4,9 +4,10 @@
     var controllerId = 'shell';
     angular.module('app').controller(controllerId, ['navigator', shell]);
 
-    function shell(navigator) {
+    //TODO: Re-evaluate the need for this file
 
-        navigator.register();
+    function shell() {
+
         activate();
 
         function activate() {

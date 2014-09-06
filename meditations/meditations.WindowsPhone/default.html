@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <title>meditations.WindowsPhone</title>
-    
+
     <!-- Mitigate dynamic content security issues with using external libraries -->
     <!-- See https://github.com/MSOpenTech/winstore-jscompat for more information -->
     <script src="/vendor/winstore-jscompat.js"></script>
@@ -17,7 +17,8 @@
 
     <!-- External references -->
     <script src="/vendor/angularjs/angular.js"></script>
-    <script src="/vendor/angularjs/angular-route.js"></script>
+    <script src="/vendor/angular-ui/angular-ui-router.js"></script>
+    <script src="/vendor/angularjs/angular-animate.js"></script>
     <script src="/vendor/azure-mobile-services/MobileServices.js"></script>
     <script src="/vendor/azure-mobile-services/azuremobileangularservices.js"></script>
 
@@ -25,10 +26,11 @@
     <link href="/css/shared.css" rel="stylesheet" />
     <link href="/css/colors/colors-themed.css" rel="stylesheet" />
     <link href="/app/home/home.css" rel="stylesheet" />
-    <script src="/app/navigator.js"></script>
+    <script src="/app/winjs/navigator.js"></script>
     <script src="/app/app.js"></script>
     <script src="/app/config.js"></script>
     <script src="/app/routes.js"></script>
+    <script src="/app/winjs/animator.js"></script>
     <script src="/app/layout/shell.js"></script>
     <script src="/app/home/home.js"></script>
     <script src="/app/new-session/new-session.js"></script>

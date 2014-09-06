@@ -14,10 +14,11 @@
     <Content Include="$(MSBuildThisFileDirectory)app\home\home.less" />
     <Content Include="$(MSBuildThisFileDirectory)app\layout\shell.html" />
     <Content Include="$(MSBuildThisFileDirectory)app\layout\shell.js" />
-    <Content Include="$(MSBuildThisFileDirectory)app\navigator.js" />
     <Content Include="$(MSBuildThisFileDirectory)app\new-session\new-session.js" />
     <Content Include="$(MSBuildThisFileDirectory)app\new-session\new-session.html" />
     <Content Include="$(MSBuildThisFileDirectory)app\routes.js" />
+    <Content Include="$(MSBuildThisFileDirectory)app\winjs\animator.js" />
+    <Content Include="$(MSBuildThisFileDirectory)app\winjs\navigator.js" />
     <Content Include="$(MSBuildThisFileDirectory)css\colors\colors-themed.css" />
     <Content Include="$(MSBuildThisFileDirectory)css\colors\colors-themed.theme-dark.css" />
     <Content Include="$(MSBuildThisFileDirectory)css\colors\colors-themed.theme-dark.less" />
@@ -26,6 +27,9 @@
     <Content Include="$(MSBuildThisFileDirectory)css\shared.css" />
     <Content Include="$(MSBuildThisFileDirectory)css\shared.less" />
     <Content Include="$(MSBuildThisFileDirectory)default.js" />
+    <Content Include="$(MSBuildThisFileDirectory)vendor\angular-ui\angular-ui-router.js" />
+    <Content Include="$(MSBuildThisFileDirectory)vendor\angular-ui\angular-ui-router.min.js" />
+    <Content Include="$(MSBuildThisFileDirectory)vendor\angular-winjs.js" />
     <Content Include="$(MSBuildThisFileDirectory)vendor\angularjs\angular-animate.js" />
     <Content Include="$(MSBuildThisFileDirectory)vendor\angularjs\angular-animate.min.js" />
     <Content Include="$(MSBuildThisFileDirectory)vendor\angularjs\angular-animate.min.js.map" />

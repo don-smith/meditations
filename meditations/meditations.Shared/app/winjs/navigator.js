@@ -4,12 +4,12 @@
     var nav = angular.module('navigator', []);
 
     var serviceId = 'navigator';
-    nav.service(serviceId, ['$location', '$rootScope', navigator]);
+    nav.service(serviceId, ['$state', '$rootScope', navigator]);
 
     // This module/service encapsulates an interop layer to isolate
     // WinJS navigation functionality from the rest of the Angular app.
 
-    function navigator($location, $rootScope) {
+    function navigator($state, $rootScope) {
 
         var goBackEvent = 'navigator.goBack';
         var goingBack = false;
@@ -25,13 +25,13 @@
             var path;
             var phase = scope.$root.$$phase;
 
-            // the first item is the nav to the first screen
+            // The first item in navHistory is home
             if (navHistory.length === 1) { return; }
 
             goingBack = true;
             navHistory.pop();
-            path = navHistory[navHistory.length-1];
-            $location.path(path);
+            path = navHistory[navHistory.length - 1];
+            $state.go(path);
 
             if (phase !== '$apply' && phase !== '$digest') {
                 scope.$apply();
@@ -39,11 +39,11 @@
         }
 
         function register() {
-            $rootScope.$on('$routeChangeSuccess', function (event, next) {
+            $rootScope.$on('$stateChangeSuccess', function (event, toState, toParams, fromState, fromParams) {
                 if (goingBack) {
                     goingBack = false;
                 } else {
-                    navHistory.push(next.$$route.originalPath);
+                    navHistory.push(toState.name);
                 }
             });
 

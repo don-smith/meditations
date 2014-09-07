@@ -6,6 +6,10 @@
     <SharedGUID>3ad6ac69-cbda-4dc1-8739-5df6e39c1d42</SharedGUID>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)app\app-bar\app-bar-directive.html" />
+    <Content Include="$(MSBuildThisFileDirectory)app\app-bar\app-bar-directive.js" />
+    <Content Include="$(MSBuildThisFileDirectory)app\app-bar\app-bar.html" />
+    <Content Include="$(MSBuildThisFileDirectory)app\app-bar\app-bar.js" />
     <Content Include="$(MSBuildThisFileDirectory)app\app.js" />
     <Content Include="$(MSBuildThisFileDirectory)app\config.js" />
     <Content Include="$(MSBuildThisFileDirectory)app\home\home.css" />
@@ -27,6 +31,7 @@
     <Content Include="$(MSBuildThisFileDirectory)css\shared.css" />
     <Content Include="$(MSBuildThisFileDirectory)css\shared.less" />
     <Content Include="$(MSBuildThisFileDirectory)default.js" />
+    <Content Include="$(MSBuildThisFileDirectory)vendor\angular-winjs.js" />
     <Content Include="$(MSBuildThisFileDirectory)vendor\angular\angular-animate.js" />
     <Content Include="$(MSBuildThisFileDirectory)vendor\angular\angular-animate.min.js" />
     <Content Include="$(MSBuildThisFileDirectory)vendor\angular\angular.js" />

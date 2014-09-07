@@ -5,18 +5,11 @@ VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedApp", "SharedApp", "{3DD524F3-2E2A-450E-A847-9CE0B58CB011}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "meditations.Shared", "meditations\meditations.Shared\meditations.Shared.shproj", "{3AD6AC69-CBDA-4DC1-8739-5DF6E39C1D42}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Meditations.Shared", "Meditations\Meditations.Shared\Meditations.Shared.shproj", "{3AD6AC69-CBDA-4DC1-8739-5DF6E39C1D42}"
 EndProject
-Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "meditations.Windows", "meditations\meditations.Windows\meditations.Windows.jsproj", "{AD165461-35EC-484E-AE5E-E241543BC8A9}"
+Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "Meditations.Windows", "Meditations\Meditations.Windows\Meditations.Windows.jsproj", "{AD165461-35EC-484E-AE5E-E241543BC8A9}"
 EndProject
-Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "meditations.WindowsPhone", "meditations\meditations.WindowsPhone\meditations.WindowsPhone.jsproj", "{C71961E5-CA80-48EB-9AF8-2839E2A08E9D}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{BF85F1D7-18FA-4A6F-9838-EA0A8C24DC80}"
-	ProjectSection(SolutionItems) = preProject
-		.nuget\NuGet.Config = .nuget\NuGet.Config
-		.nuget\NuGet.exe = .nuget\NuGet.exe
-		.nuget\NuGet.targets = .nuget\NuGet.targets
-	EndProjectSection
+Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "Meditations.WindowsPhone", "Meditations\Meditations.WindowsPhone\Meditations.WindowsPhone.jsproj", "{C71961E5-CA80-48EB-9AF8-2839E2A08E9D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EAD69300-BACD-45A9-8451-CAB5C7F884B6}"
 	ProjectSection(SolutionItems) = preProject
@@ -25,9 +18,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		meditations\meditations.Shared\meditations.Shared.projitems*{3ad6ac69-cbda-4dc1-8739-5df6e39c1d42}*SharedItemsImports = 13
-		meditations\meditations.Shared\meditations.Shared.projitems*{c71961e5-ca80-48eb-9af8-2839e2a08e9d}*SharedItemsImports = 5
-		meditations\meditations.Shared\meditations.Shared.projitems*{ad165461-35ec-484e-ae5e-e241543bc8a9}*SharedItemsImports = 5
+		Meditations\Meditations.Shared\Meditations.Shared.projitems*{3ad6ac69-cbda-4dc1-8739-5df6e39c1d42}*SharedItemsImports = 13
+		Meditations\Meditations.Shared\Meditations.Shared.projitems*{c71961e5-ca80-48eb-9af8-2839e2a08e9d}*SharedItemsImports = 5
+		Meditations\Meditations.Shared\Meditations.Shared.projitems*{ad165461-35ec-484e-ae5e-e241543bc8a9}*SharedItemsImports = 5
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

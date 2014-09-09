@@ -1,0 +1,22 @@
+﻿.new-session input[type=number].duration {
+  font-size: 80pt;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+.new-session .remaining {
+  display: flex;
+  font-size: 78pt;
+  justify-content: center;
+}
+.new-session .minutes-label {
+  font-size: 12pt;
+  font-weight: 200;
+  margin-top: -20px;
+  text-align: center;
+}
+.new-session .control-button {
+  font-size: 50pt;
+  margin-top: 30px;
+  text-align: center;
+}

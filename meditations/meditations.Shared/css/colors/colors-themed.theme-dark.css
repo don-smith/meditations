@@ -4,3 +4,10 @@
 .tiles .tile {
   border-color: #ffffff;
 }
+.new-session input[type=number].duration {
+  background-color: #000000;
+  color: #ffffff;
+}
+.new-session input[type=number].duration:focus {
+  border-color: #000000;
+}

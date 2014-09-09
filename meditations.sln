@@ -74,6 +74,8 @@ Global
 		{AD165461-35EC-484E-AE5E-E241543BC8A9}.Debug|Mixed Platforms.Deploy.0 = Debug|x86
 		{AD165461-35EC-484E-AE5E-E241543BC8A9}.Debug|Windows Phone.ActiveCfg = Debug|Any CPU
 		{AD165461-35EC-484E-AE5E-E241543BC8A9}.Debug|Windows-AnyCPU.ActiveCfg = Debug|Any CPU
+		{AD165461-35EC-484E-AE5E-E241543BC8A9}.Debug|Windows-AnyCPU.Build.0 = Debug|Any CPU
+		{AD165461-35EC-484E-AE5E-E241543BC8A9}.Debug|Windows-AnyCPU.Deploy.0 = Debug|Any CPU
 		{AD165461-35EC-484E-AE5E-E241543BC8A9}.Debug|Windows-ARM.ActiveCfg = Debug|Any CPU
 		{AD165461-35EC-484E-AE5E-E241543BC8A9}.Debug|Windows-x64.ActiveCfg = Debug|Any CPU
 		{AD165461-35EC-484E-AE5E-E241543BC8A9}.Debug|Windows-x86.ActiveCfg = Debug|Any CPU

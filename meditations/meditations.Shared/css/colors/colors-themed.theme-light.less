@@ -4,6 +4,7 @@
 
 @main-text: black;
 @tile-border: black;
+@main-background: white;
 
 // 
 // Styles
@@ -15,4 +16,14 @@ body {
 
 .tiles .tile {
     border-color: @tile-border;
+}
+
+.new-session {
+    input[type=number].duration {
+        background-color: @main-background;
+        color: @main-text;
+    }
+    input[type=number].duration:focus {
+        border-color: @main-background;
+    }
 }

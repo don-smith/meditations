@@ -2,9 +2,9 @@
 // Colors
 //////////////////
 
-@main-text: white;
-@tile-border: white;
-@main-background: black;
+@main-text: #dddddd;
+@tile-border: #dddddd;
+@main-background: #444444;
 
 // 
 // Styles
@@ -12,6 +12,7 @@
 
 body {
     color: @main-text;
+    background-color: @main-background;
 }
 
 .tiles .tile {
@@ -20,10 +21,11 @@ body {
 
 .new-session {
     input[type=number].duration {
-        background-color: @main-background;
+        background-color: transparent;
+        border: 0px solid transparent;
         color: @main-text;
     }
     input[type=number].duration:focus {
-        border-color: @main-background;
+        border-color: transparent;
     }
 }

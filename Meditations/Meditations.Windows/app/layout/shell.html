@@ -1,0 +1,8 @@
+﻿<div data-ng-controller="shell as vm" class="tall shell">
+    <button ng-if="vm.canGoBack()" ng-click="vm.goBack()" class="win-navigation-backbutton">
+        <span class="win-back"></span>
+    </button>
+    <h1 ng-class="{'can-go-back': vm.canGoBack()}"class="app-title">Meditations</h1>
+
+    <div ui-view class="tall enter-page"></div>
+</div>

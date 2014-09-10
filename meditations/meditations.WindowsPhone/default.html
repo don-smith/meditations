@@ -37,7 +37,9 @@
     <link href="/css/shared.css" rel="stylesheet" />
     <link href="/css/phone.css" rel="stylesheet" />
     <link href="/css/colors/colors-themed.css" rel="stylesheet" />
-    <link href="/app/home/home.css" rel="stylesheet" />
+    <link href="/app/home-tiles/home-tiles.css" rel="stylesheet" />
+    <link href="/app/timer-control/timer-control.css" rel="stylesheet" />
+
     <script src="/app/winjs/navigator.js"></script>
     <script src="/app/app.js"></script>
     <script src="/app/config.js"></script>
@@ -48,15 +50,14 @@
     <script src="/app/app-bar/app-bar.js"></script>
     <script src="/app/app-bar/app-bar-directive.js"></script>
     <script src="/app/layout/shell.js"></script>
-    <script src="/app/home/home.js"></script>
-    <script src="/app/new-session/select-on-focus.js"></script>
-    <script src="/app/new-session/new-session.js"></script>
+    <script src="/app/timer-control/select-on-focus.js"></script>
+    <script src="/app/timer-control/timer-control.js"></script>
     <script src="/default.js"></script>
 
 </head>
 <body class="phone">
     <div>
-        <div data-ng-include="'/app/layout/shell.html'"></div>
+        <div ng-include="'/app/layout/shell.html'"></div>
     </div>
 </body>
 </html>

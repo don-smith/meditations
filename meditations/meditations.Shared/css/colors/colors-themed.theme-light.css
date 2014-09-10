@@ -1,13 +1,15 @@
 ﻿body {
-  color: #000000;
+  color: #444444;
+  background-color: #dddddd;
 }
 .tiles .tile {
-  border-color: #000000;
+  border-color: #444444;
 }
 .new-session input[type=number].duration {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: transparent;
+  border: 0px solid transparent;
+  color: #444444;
 }
 .new-session input[type=number].duration:focus {
-  border-color: #ffffff;
+  border-color: transparent;
 }

@@ -1,0 +1,67 @@
+﻿.store {
+  height: 100%;
+  width: 100%;
+}
+.tall {
+  height: 100%;
+}
+.app-title {
+  font-family: "Segoe UI Light", "Segoe UI", sans-serif;
+  font-size: 48pt;
+  margin: 20px 20px;
+  position: absolute;
+  z-index: 2;
+}
+.app-title.can-go-back {
+  margin-left: 120px;
+}
+.shell .win-navigation-backbutton {
+  margin: 40px 40px;
+  position: absolute;
+  z-index: 2;
+}
+.home .win-hub-horizontal .win-hub-section-header {
+  margin-top: 100px;
+}
+.home .win-hub-horizontal .win-hub-surface {
+  padding: 0;
+  width: 100%;
+}
+.home .win-hub-horizontal .win-hub-surface .win-hub-section:nth-child(1) {
+  background-image: url(/images/hero.jpg);
+  background-size: cover;
+  width: 110%;
+}
+.new-session {
+  background: url(/images/background.jpg) no-repeat right;
+  background-size: cover;
+}
+.new-session .container {
+  padding: 150px 120px;
+  width: 300px;
+}
+.new-session .timer-control {
+  margin-top: 40px;
+}
+.new-session input[type=number].duration {
+  font-size: 80pt;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+.new-session .remaining {
+  display: flex;
+  font-size: 78pt;
+  justify-content: center;
+}
+.new-session .minutes-label {
+  font-size: 12pt;
+  font-weight: 200;
+  margin-top: -20px;
+  text-align: center;
+}
+.new-session .control-button {
+  font-size: 50pt;
+  margin-top: 30px;
+  text-align: center;
+}

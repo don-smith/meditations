@@ -1,0 +1,22 @@
+﻿.timer-control input[type=number].duration {
+  font-size: 80pt;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+.timer-control .remaining {
+  display: flex;
+  font-size: 78pt;
+  justify-content: center;
+}
+.timer-control .minutes-label {
+  font-size: 12pt;
+  font-weight: 200;
+  margin-top: -20px;
+  text-align: center;
+}
+.timer-control .control-button {
+  font-size: 50pt;
+  margin-top: 30px;
+  text-align: center;
+}

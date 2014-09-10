@@ -1,10 +1,10 @@
 ﻿(function () {
     'use strict';
 
-    var controllerId = 'newSession';
-    angular.module('app').controller(controllerId, ['$rootScope', '$scope', 'timer', newSession]);
+    var controllerId = 'timerControl';
+    angular.module('app').controller(controllerId, ['$rootScope', '$scope', 'timer', timerControl]);
 
-    function newSession($rootScope, $scope, timer) {
+    function timerControl($rootScope, $scope, timer) {
         var vm = this;
 
         vm.displayDuration = 20;

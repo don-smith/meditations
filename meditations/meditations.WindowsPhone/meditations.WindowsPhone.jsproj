@@ -50,6 +50,10 @@
     <AppxManifest Include="package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <Content Include="app\home.html" />
+    <Content Include="app\layout\shell.html" />
+    <Content Include="app\layout\shell.js" />
+    <Content Include="app\new-session.html" />
     <Content Include="css\phone.css" />
     <Content Include="css\phone.less" />
     <Content Include="default.html" />

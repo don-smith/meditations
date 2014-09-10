@@ -57,7 +57,15 @@
     <AppxManifest Include="package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <Content Include="app\home.html" />
+    <Content Include="app\layout\shell.html" />
+    <Content Include="app\layout\shell.js" />
+    <Content Include="app\new-session.html" />
+    <Content Include="css\store.css" />
+    <Content Include="css\store.less" />
     <Content Include="default.html" />
+    <Content Include="images\background.jpg" />
+    <Content Include="images\hero.jpg" />
     <Content Include="images\logo.png" />
     <Content Include="images\smalllogo.png" />
     <Content Include="images\splashscreen.png" />

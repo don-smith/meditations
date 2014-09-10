@@ -15,11 +15,16 @@
         var goingBack = false;
         var navHistory = [];
         var service = {
+            canGoBack: canGoBack,
             goBack: goBack,
             register: register
         };
 
         return service;
+
+        function canGoBack() {
+            return navHistory.length > 1;
+        }
 
         function goBack(scope) {
             var path;

@@ -1,1 +1,1 @@
-﻿body{color:#fff}.tiles .tile{border-color:#fff}.new-session input[type=number].duration{background-color:#000;color:#fff}.new-session input[type=number].duration:focus{border-color:#000}
+﻿body{color:#ddd;background-color:#444}.tiles .tile{border-color:#ddd}.new-session input[type=number].duration{background-color:transparent;border:0 solid transparent;color:#ddd}.new-session input[type=number].duration:focus{border-color:transparent}

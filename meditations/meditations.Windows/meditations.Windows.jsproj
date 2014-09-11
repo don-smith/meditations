@@ -65,11 +65,24 @@
     <Content Include="css\store.less" />
     <Content Include="default.html" />
     <Content Include="images\background.jpg" />
+    <Content Include="images\BadgeLogo.scale-100.png" />
     <Content Include="images\hero.jpg" />
-    <Content Include="images\logo.png" />
-    <Content Include="images\smalllogo.png" />
-    <Content Include="images\splashscreen.png" />
-    <Content Include="images\storelogo.png" />
+    <Content Include="images\icon_120x120.png" />
+    <Content Include="images\icon_150x150.png" />
+    <Content Include="images\icon_210x210.png" />
+    <Content Include="images\icon_270x270.png" />
+    <Content Include="images\icon_30x30.png" />
+    <Content Include="images\icon_310x150.scale-100.png" />
+    <Content Include="images\icon_310x310.scale-100.png" />
+    <Content Include="images\icon_70x70.scale-100.png" />
+    <Content Include="images\Logo.scale-100.png" />
+    <Content Include="images\Logo.scale-140.png" />
+    <Content Include="images\Logo.scale-180.png" />
+    <Content Include="images\Logo.scale-80.png" />
+    <Content Include="images\smalllogo.scale-100.png" />
+    <Content Include="images\splashscreen.scale-100.png" />
+    <Content Include="images\storelogo.scale-100.png" />
+    <Content Include="images\storelogo.scale-140.png" />
     <None Include="Meditations_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>

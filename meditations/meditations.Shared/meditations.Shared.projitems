@@ -24,6 +24,7 @@
     <Content Include="$(MSBuildThisFileDirectory)app\timer.js" />
     <Content Include="$(MSBuildThisFileDirectory)app\winjs\animator.js" />
     <Content Include="$(MSBuildThisFileDirectory)app\winjs\navigator.js" />
+    <Content Include="$(MSBuildThisFileDirectory)app\winjs\promises.js" />
     <Content Include="$(MSBuildThisFileDirectory)css\colors\colors-themed.css" />
     <Content Include="$(MSBuildThisFileDirectory)css\colors\colors-themed.theme-dark.css" />
     <Content Include="$(MSBuildThisFileDirectory)css\colors\colors-themed.theme-dark.less" />
